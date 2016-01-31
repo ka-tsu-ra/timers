@@ -28,3 +28,4 @@ module.exports = config;
 // assign dir path of the React app's codebase to var
 // entry: tell Webpack what to do when bundling process complete. Here tells it to use src/client/public dir to output the bundled file with name bundle.js
 // output`; specify the file the bundling process uses when it starts
+// module: tell webpack to use the babel loader when bundling files.
